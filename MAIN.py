@@ -8,7 +8,7 @@ def main():
     col1, col2, col3 = st.beta_columns(3)  # Using beta_columns to create two columns
 
     if col1.button("Vegetable Plant"):
-        st.success("NOTIFACTION-(https://www.almanac.com/gardening/growing-guides#Vegetable)")
+        st.success("Website that provide useful information on growing vegetables https://www.almanac.com/gardening/growing-guides#Vegetable")
         # Redirect to the Vegetable Plant website (replace the URL with the actual website)
         st.markdown("[Vegetable Plant Website](https://vegetable.streamlit.app)")
 
