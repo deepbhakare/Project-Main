@@ -13,7 +13,7 @@ def main():
         st.markdown("Click Here --> [Vegetable Plant Website](https://vegetable.streamlit.app)")
 
     if col2.button("Cash Crop"):
-        st.success("Redirecting to Cash Crop website...")
+        st.success("Website that provide useful information on growing Cotton Plant (https://cottontoday.cottoninc.com/cotton-and-water-better-management-of-an-increasingly-scarce-resource/)")
         # Redirect to the Cash Crop website (replace the URL with the actual website)
         st.markdown("Click Here --> [Cash Crop Website](https://cash-crop.streamlit.app)")
 
