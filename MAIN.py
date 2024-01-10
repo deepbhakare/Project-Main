@@ -4,21 +4,22 @@ def main():
     st.title("Crop Selection App")
 
     # Create two buttons side by side
-    col1, col2 = st.beta_columns(2)  # Using beta_columns to create two columns
+    col1, col2, col3 = st.beta_columns(3)  # Using beta_columns to create two columns
 
     if col1.button("Vegetable Plant"):
         st.success("Redirecting to Vegetable Plant website...")
-        redirect_script = """<script>
-                              window.location.href = 'https://vegetable.streamlit.app';
-                           </script>"""
-        st.markdown(redirect_script, unsafe_allow_html=True)
+        # Redirect to the Vegetable Plant website (replace the URL with the actual website)
+        st.markdown("[Vegetable Plant Website](https://vegetable.streamlit.app/")
 
     if col2.button("Cash Crop"):
         st.success("Redirecting to Cash Crop website...")
-        redirect_script = """<script>
-                              window.location.href = 'https://www.example-cash-crop.com';
-                           </script>"""
-        st.markdown(redirect_script, unsafe_allow_html=True)
+        # Redirect to the Cash Crop website (replace the URL with the actual website)
+        st.markdown("[Cash Crop Website](https://cash-crop.streamlit.app/)")
+
+    if col3.button("Cash Crop (BETA)"):
+        st.success("Redirecting to Cash Crop (BETA) website...")
+        # Redirect to the Cash Crop website (replace the URL with the actual website)
+        st.markdown("[Cash Crop Website](https://www.example-cash-crop.com)")
 
 if __name__ == "__main__":
     main()
