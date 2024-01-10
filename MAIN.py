@@ -8,7 +8,7 @@ def main():
     col1, col2, col3 = st.beta_columns(3)  # Using beta_columns to create two columns
 
     if col1.button("Vegetable Plant"):
-        st.success("Some well-known websites that provide useful information on growing vegetables include-
+        st.success("Some well-known websites that provide useful information on growing vegetables include
 
 1.The Old Farmer's Almanac
 2.[University Extension Websites](e.g., University of California Cooperative Extension, Cornell University - Gardening Resources)
