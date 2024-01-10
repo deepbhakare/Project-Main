@@ -1,7 +1,7 @@
 import streamlit as st
 
 def main():
-    st.title("Crop Selection App")
+    st.title("Crop Disease Classification and Treatment Recommendation System for Amravati District")
 
     # Create two buttons side by side
     col1, col2, col3 = st.beta_columns(3)  # Using beta_columns to create two columns
