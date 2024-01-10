@@ -15,12 +15,12 @@ def main():
     if col2.button("Cash Crop"):
         st.success("Redirecting to Cash Crop website...")
         # Redirect to the Cash Crop website (replace the URL with the actual website)
-        st.markdown("[Cash Crop Website](https://cash-crop.streamlit.app)")
+        st.markdown("Click Here --> [Cash Crop Website](https://cash-crop.streamlit.app)")
 
     if col3.button("Cash Crop (BETA)"):
         st.success("Redirecting to Cash Crop (BETA) website...")
         # Redirect to the Cash Crop website (replace the URL with the actual website)
-        st.markdown("[Cash Crop [BETA] Website](https://cpddpy-qwhhpsykdudfcplonnvrr7.streamlit.app)")
+        st.markdown("Click Here --> [Cash Crop [BETA] Website](https://cpddpy-qwhhpsykdudfcplonnvrr7.streamlit.app)")
 
 if __name__ == "__main__":
     main()
