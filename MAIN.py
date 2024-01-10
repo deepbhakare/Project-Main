@@ -18,7 +18,7 @@ def main():
         st.markdown("Click Here --> [Cash Crop Website](https://cash-crop.streamlit.app)")
 
     if col3.button("Cash Crop (BETA)"):
-        st.success("Note - This website may not give you an accurate result because, its under development")
+        st.success("")
         # Redirect to the Cash Crop website (replace the URL with the actual website)
         st.markdown("Click Here --> [Cash Crop [BETA] Website](https://cpddpy-qwhhpsykdudfcplonnvrr7.streamlit.app)")
 
