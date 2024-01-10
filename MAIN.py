@@ -9,7 +9,7 @@ def main():
     if col1.button("Vegetable Plant"):
         st.success("Redirecting to Vegetable Plant website...")
         # Redirect to the Vegetable Plant website (replace the URL with the actual website)
-        st.markdown("[Vegetable Plant Website](https://www.example-vegetable-plant.com)")
+        st.markdown("[Vegetable Plant Website](https://vegetable.streamlit.app)")
 
     if col2.button("Cash Crop"):
         st.success("Redirecting to Cash Crop website...")
