@@ -7,9 +7,10 @@ def main():
     col1, col2 = st.beta_columns(2)  # Using beta_columns to create two columns
 
     if col1.button("Vegetable Plant"):
-        st.success("Redirecting to Vegetable Plant website...")
+        #st.success("Redirecting to Vegetable Plant website...")
+        st.success("https://vegetable.streamlit.app")
         # Redirect to the Vegetable Plant website (replace the URL with the actual website)
-        st.markdown("[Vegetable Plant Website](https://vegetable.streamlit.app)")
+        #st.markdown("[Vegetable Plant Website](https://vegetable.streamlit.app)")
 
     if col2.button("Cash Crop"):
         st.success("Redirecting to Cash Crop website...")
